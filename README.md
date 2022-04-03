@@ -15,8 +15,10 @@ Child process will interrupt the parent process with results once it has complet
     
 **list:**
     -lists all the running child processes
+    
 **kill:**
     -ends any child process with the associated serial key provided in the list command. Ex.(kill 1)
+    
 **quit or q**
     -ends all processes 
     
