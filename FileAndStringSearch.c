@@ -11,6 +11,7 @@
 #include <dirent.h>
 #include <sys/sysmacros.h>
 #include <sys/stat.h>
+
 int *childp;
 char **children;
 int *count;
@@ -28,6 +29,7 @@ char *findtext(char *file, char *d, char *f, bool s, bool *, int *, char *);
 void listchildren();
 void killChild(int i);
 int fd[2];
+
 void sigh()
 {
     dup2(fd[0], STDIN_FILENO);
